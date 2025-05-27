@@ -1,0 +1,24 @@
+1. How To Use $Exists Operator to Check Whether Spice Cinnamon Exists In Document
+Or Not And If Exists Fetches Only Those Records?
+
+A: We use the command: db.spices.find({saffron: {$exists: true}})
+> db.spices.find({saffron: {$exists: true}})
+
+					[IMG]
+
+2. How To Use $Exists Operator to Check Whether Spice Cinnamon Exists In Document
+Or Not And If Exists Fetches Only Those Record
+
+A: We use the command: db.spices.find({cinnamon: {$exists: true}})
+> db.spices.find({cinnamon: {$exists: true}})
+
+					[IMG]
+
+3. How to Use $exists Operator to check whether spice cinnamon does not exists in
+document and fetches only those records which does not exists
+
+A: We use the command: db.spices.find({cinnamon: {$exists: false}})
+> db.spices.find({cinnamon: {$exists: false}})
+
+					[IMG]
+

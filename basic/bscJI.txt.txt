@@ -1,0 +1,28 @@
+1. Query to Update Whose Salary=8500 To Salary=7000
+
+A: We use the query: db.m1.updateMany({salary:8500},{$set:{salary:7000}})
+> db.m1.updateMany({salary:8500},{$set:{salary:7000}})
+
+						[IMG]
+
+2. Query to Update Location='Mumbai' Whose Firstname is Amitabh
+
+A: We use the query: db.m1.updateMany({"firstname":"amitabh"},{$set:{location:"mumbai"}})
+> db.m1.updateMany({"firstname":"amitabh"},{$set:{location:"mumbai"}})
+
+						[IMG]
+
+3. Query to set Salary = 5000 If Salary>=4500
+
+A: We use the query: db.m1.updateMany({"firstname":"amitabh"},{$set:{location:"mumbai"}})
+> db.m1.updateMany({"firstname":"amitabh"},{$set:{location:"mumbai"}})
+
+						[IMG]
+
+4. Query/Demonstrate Use of Updatemany to Update Multiple Fields
+
+A: We use the query: db.m1.updateMany({}, {$set:{salary:8000}})
+> db.m1.updateMany({}, {$set:{salary:8000}})
+
+						[IMG]
+
